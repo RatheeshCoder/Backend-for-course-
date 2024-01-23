@@ -1,6 +1,7 @@
 // Navbar.js
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import img from '../../assets/profile.png'
 
 const Navbar = ({ searchTerm, onSearchTermChange }) => {
   return (
@@ -26,7 +27,7 @@ const Navbar = ({ searchTerm, onSearchTermChange }) => {
             <div className="w-10 rounded-full">
               <img
                 alt="Tailwind CSS Navbar component"
-                src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                src={img}
               />
             </div>
           </div>

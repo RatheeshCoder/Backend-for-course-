@@ -208,7 +208,7 @@ const CourseList = () => {
                   Enrollment Status: {course.enrollmentStatus}
                 </p>
                 <div class="flex items-center justify-between mt-4">
-                  <span class="text-gray-900 font-bold text-lg">$29.99</span>
+                  <span class="text-gray-900 font-bold text-lg rounded-full px-3 py-1 bg-lime-500">Free</span>
                   <button
           type="button"
           className={`inline-flex items-center justify-center py-1 gap-1 font-medium rounded-lg border transition-colors outline-none focus:ring-offset-2 focus:ring-2 focus:ring-inset dark:focus:ring-offset-0 min-h-[2.25rem] px-4 text-sm ${
